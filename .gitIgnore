@@ -108,4 +108,4 @@ dist
 pake-lock.js
 uploads
 static
-build
+buildnode_modules
