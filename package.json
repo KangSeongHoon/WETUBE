@@ -59,7 +59,8 @@
     "tunnel": "ngrok http 4000",
     "copyAll": "shx cp -R src/static build && shx cp -R src/views build",
     "prebuild": "shx rm -rf build",
-    "start": "node build/init.js"
+    "start": "node build/init.js",
+    "prestart": "npm run build"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
