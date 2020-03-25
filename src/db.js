@@ -16,6 +16,6 @@ mongooes.connect(
 const db = mongooes.connection;
 
 const handleOpen = () => console.log("**Connected to DB**");
-const handleError = () => console.log(`**Error on DB Connection**`);
+const handleError = () => console.log(`**Error on DB Connection`);
 db.once("open", handleOpen);
 db.on("error", handleError);
