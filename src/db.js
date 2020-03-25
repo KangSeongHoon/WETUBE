@@ -5,7 +5,7 @@ dotenv.config();
 
 
 mongooes.connect(
-    process.env.PRODUCTION ? process.env.MONGO.URL.PROD : process.env.MONGO.URL.PROD,
+    process.env.MONGO.URL.PROD,
     {
         useNewUrlParser: true,
         useFindAndModify: false,
