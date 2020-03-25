@@ -52,7 +52,7 @@
     "build": "npm run build:server && npm run build:assets && npm run copyAll",
     "tunnel": "ngrok http 4000",
     "copyAll": "shx cp -R src/static build && shx cp -R src/views build",
-    "prebuild": "shx rm -rf build",
+    "prebuild": "shx rd -rf build",
     "start": "node build/init.js"
   },
   "devDependencies": {
@@ -67,6 +67,7 @@
     "eslint-plugin-prettier": "^3.0.0",
     "nodemon": "^2.0.2",
     "prettier": "^1.15.2",
-    "shx": "^0.3.2"
+    "shx": "^0.3.2",
+    "rd": "^2.0.1"
   }
 }
