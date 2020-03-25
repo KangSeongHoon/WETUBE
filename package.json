@@ -10,7 +10,6 @@
     "autoprefixer": "^9.7.4",
     "aws-sdk": "^2.642.0",
     "axios": "^0.19.2",
-    "babel": "^6.23.0",
     "babel-loader": "^8.0.6",
     "body-parser": "^1.18.3",
     "connect-mongo": "^2.0.3",
