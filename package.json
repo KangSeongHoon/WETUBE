@@ -61,6 +61,9 @@
     "prestart": "npm run build"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
     "babel-cli": "^6.26.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -68,9 +71,6 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^3.0.0",
     "nodemon": "^2.0.2",
-    "prettier": "^1.15.2",
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/node": "^7.8.7"
+    "prettier": "^1.15.2"
   }
 }
