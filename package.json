@@ -38,6 +38,7 @@
     "passport-local-mongoose": "^5.0.1",
     "postcss-loader": "^3.0.0",
     "pug": "^2.0.3",
+    "rd": "^2.0.1",
     "sass-loader": "^7.1.0",
     "shx": "^0.3.2",
     "webpack": "^4.25.1",
@@ -55,7 +56,6 @@
     "start": "node build/init.js"
   },
   "devDependencies": {
-    "rd": "^2.0.1",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.3.0",
